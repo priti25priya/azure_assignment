@@ -7,7 +7,6 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 
-
 file_path = "dbfs:/mnt/Bronze/sales_view/sales/20240107_sales_data.csv"
 df = spark.read.format("csv").option("header", "true").load(file_path)
 
