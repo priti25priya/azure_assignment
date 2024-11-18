@@ -32,7 +32,6 @@ df_transformed = df_snake_case.withColumn(
 )
 
 
-
 silver_layer_path = "dbfs:/mnt/silver/sales_view/product"
 table_name = "product"
 
